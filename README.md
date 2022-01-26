@@ -3,7 +3,7 @@
 
   http://128.199.152.250/
 
-# Insallation
+# Installation
   wip
 
 # Architecture

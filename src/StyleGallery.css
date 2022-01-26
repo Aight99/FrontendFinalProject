@@ -1,0 +1,10 @@
+
+.block img {
+    padding: 20px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.block {
+    text-align: center;
+}
