@@ -1,0 +1,23 @@
+
+.btn {
+    font-size: 32px;
+    width: 275px;
+    height: 75px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    /*font-weight: 700;*/
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #0E0E0E;
+}
+
+#timeInfo {
+    text-align: center;
+    font-size: 72px;
+}
+
+#disabler {
+    text-align: center;
+}
