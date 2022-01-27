@@ -1,0 +1,24 @@
+{
+  "name": "frontendfinalproject",
+  "version": "1.0.0",
+  "description": "Фронтенд проект, адаптированный под мобилки. Ничего особо интересного ¯\\_(ツ)_/¯",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aight99/FrontendFinalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aight99/FrontendFinalProject/issues"
+  },
+  "homepage": "https://github.com/Aight99/FrontendFinalProject#readme",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
