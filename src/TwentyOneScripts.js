@@ -23,7 +23,7 @@ function startGame() {
         for (j = 0; j < columnsRows; j++) {
             let morpeko = document.createElement('img');
             morpeko.id = `${i}${j}`;
-            morpeko.src = "../imgs/MorpekoY.png";
+            morpeko.src = "../images/MorpekoY.png";
             morpeko.classList = "Yellow";
             morpeko.onclick = ()=> {
                 let id = morpeko.id;
@@ -54,17 +54,17 @@ function feed(n, m) {
 function changeImage(img) {
     if (img.classList.contains("Purple")) {
         img.classList = "Yellow";
-        img.src = "../imgs/MorpekoY.png";
+        img.src = "../images/MorpekoY.png";
     } else {
         img.classList = "Purple";
-        img.src = "../imgs/MorpekoP.png";
+        img.src = "../images/MorpekoP.png";
     }
 }
 
 function addHungry(array) {
     let targetPeko = array[Math.floor(Math.random() * array.length)];
     targetPeko.classList = "Purple";
-    targetPeko.src = "../imgs/MorpekoP.png";
+    targetPeko.src = "../images/MorpekoP.png";
 }
 
 function check() {

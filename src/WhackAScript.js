@@ -26,12 +26,17 @@ function setDifficult() {
     }
     grid.style.gridTemplateColumns = param;
 
-    for (i = 0; i < columnsRows * columnsRows; i++) {
-        let pika = document.createElement('img');
-        pika.src = "../imgs/Pikachu.png";
-        pikas.push(pika);
-        grid.append(pika);
+    for (i = 0; i < columnsRows; i++) {
+        for (i = 0; i < columnsRows * columnsRows; i++) {
+
+            let pika = document.createElement('img');
+            pika.src = "../images/Pikachu.png";
+            pikas.push(pika);
+            grid.append(pika);
+        }
     }
+    console.log(scale.toString())
+    console.log(param)
 }
 
 function caught() {
@@ -42,10 +47,10 @@ function caught() {
 function newDiglett() {
     return setInterval(() => {
             let targetPika = pikas[Math.floor(Math.random() * pikas.length)];
-            targetPika.src = "../imgs/Diglett.png";
+            targetPika.src = "../images/Diglett.png";
             targetPika.onclick = caught;
             setTimeout(()=> {
-                    targetPika.src = "../imgs/Pikachu.png";
+                    targetPika.src = "../images/Pikachu.png";
                     targetPika.onclick = null;
                 },
                 speed

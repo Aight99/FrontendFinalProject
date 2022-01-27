@@ -1,66 +1,38 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto&display=swap');
-
-strong {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    color: #f2f2f2;
-    padding-left: 30px;
-}
-p, label {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #f2f2f2;
-}
-
-h1 {
-    text-align: center;
-}
-
-h1, h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
-}
-
-h3  {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #f2f2f2;
-}
-
 
 #grid {
     display: grid;
-    gap: 1rem;
+    gap: 20px;
     grid-template-columns: 10% 10% 10% 10%;
+    margin-bottom: 150px;
 }
 
 #grid > div {
     background: #EDE7F6;
     padding: 1.5rem;
     border-radius: 1rem;
+    text-align: center;
 }
 
+.block img {
+    max-width: 200px;
+    max-height: 200px;
+}
 
-.navbar-custom {
+.btn {
+    font-size: 16px;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
     background-color: #0E0E0E;
 }
 
-.col-md-12 {
-    background-color: #252525;
-}
-
-img {
+input[type='range'] {
     width: 200px;
-    height: 200px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
-
-body {
-    background-image: url("../imgs/tigerLong.png");
-    margin: 0;
-    padding: 0;
-}
-

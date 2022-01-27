@@ -67,7 +67,7 @@ body {
 
 /* Основные шрифты */
 
-h1 {
+h1, label {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-weight: bold;
